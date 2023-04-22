@@ -1,1 +1,40 @@
-site_name: My Docs
+site_name: Java学習サイト
+site_description: Java学習サイト
+site_author: H.T
+site_url: https://gs-learning.github.io/java/
+repo_name: gs-learning/java
+repo_url: https://github.com/gs-learning/java
+
+# Theme
+theme:
+  name: material
+  language: ja
+  features:
+    - navigation.instant
+    - navigation.top
+  palette:
+    primary: blue
+
+# Navigation
+nav:
+  - はじめに: index.md
+  - 1. 環境構築: install.md
+  - 2. 変数: variables.md
+  - 3. 式と演算子: expressions.md
+  - 4. 配列: arrays.md
+  - 5. 制御文: control.md
+  - 6. 文字列操作: string.md
+  - 7. ループ文: loop.md
+  - 8. クラス: class.md
+  - 9. コンストラクタ: constractor.md
+  - 10. static修飾子: static.md
+  - 11. クラスの可視性: visibility.md
+  - 12. 継承: inheritance.md
+  - 13. コレクション: collection.md
+  - 14. イテレータ: iterator.md
+  - 15. ファイル入出力: file.md
+  - 16. 例外処理: exception.md
+  - 17. 練習問題: exercises.md
+
+# Copyright
+copyright: 'Copyright © 2023 - Global Systems Co.,Ltd. All Rights Reserved.'
